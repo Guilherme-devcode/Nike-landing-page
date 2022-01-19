@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./components/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<meta charset="utf-8">
+	<title>Nike</title>
+</head>
+<body>
+	<header>
+		<div class="menu-toggle">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div class="overlay"></div>
+		<nav>
+			<!--<i class="fas fa-times"></i> -->
+			<div class="logo">
+				<img src="images/nike.png" alt="Nike logo">
+			</div>
+
+			<div class="nav-middle">
+				<ul>
+					<li><a href="#">Coleção</a></li>
+					<li><a href="#">Catalogo</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+
+			<div class="nav-right">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fas fa-search"></i>	
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-user"></i> Entrar	
+						</a>
+					</li>					
+					<li>
+						<a href="#">
+							<i class="fas fa-cart"></i>	Carrinho
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	<div class="main">
+		<div class="tone-1">		
+			<div class="product-info">
+				<h1 class="title-shoes">Nike Air Max 270</h1>
+				<h2 class="price">R$519.99</h2>
+				<div class="info-btns">
+					<a href="#" class="btn discover-btn">SOBRE</a>
+					<a href="#" class="btn cart-btn">ADICIONE AO CARRINHO</a>
+				</div>
+			</div>
+		</div>
+		<div class="tone-2">
+			<img src="images/shoe.png" class="tenis" alt="tênis">			
+			
+		</div>
+		<ul class="thumb">
+			<li><img src="images/shoes1.png" onclick="imgSlider('images/shoes1.png'); changeBackground('#48cae4'); changeTitle('Nike Air Max 2090'); changePrice('R$599,00')"></li>
+			<li><img src="images/shoes2.png" onclick="imgSlider('images/shoes2.png'); changeBackground('#d62828'); changeTitle('Nike Air Jordan Max Aura'); changePrice('R$499,99')"></li>
+			<li><img src="images/shoe.png" onclick="imgSlider('images/shoe.png'); changeBackground('#748cab'); changeTitle('Nike Air Max 270'); changePrice('R$519.99')"></li>
+		</ul>
+
+		<div class="social-medias">
+			<ul>
+				<li><a href="https://github.com/Guilherme-devcode"><i class="fab fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/guilherme-rocha-7b3a69220/"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://www.instagram.com/guilherme_devcode/"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+</header>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript" src="./components/script.js"></script>
+</body>
+</html>
